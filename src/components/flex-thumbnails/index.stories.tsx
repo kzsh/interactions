@@ -1,2 +1,2 @@
-import {FlexThumbnails} from './';
-export const FlexThumbnails = () => <FlexThumbnails />;
+import {FlexThumbnails as Component} from './';
+export const FlexThumbnails = () => <Component />;
