@@ -1,5 +1,5 @@
 .browser {
-  --container-width: 1000px;
+  --container-width: 100vw;
   --item-margin: 10px;
   --item-width: 100px;
   display: flex;
