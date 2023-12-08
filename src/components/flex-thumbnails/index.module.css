@@ -1,0 +1,29 @@
+.browser {
+  --container-width: 1000px;
+  --item-margin: 10px;
+  --item-width: 100px;
+  display: flex;
+  flex-direction: column;
+  width: var(--container-width);
+}
+
+.group {
+  margin: 10px;
+  background-color: #6495ED44;
+}
+
+.thumbnailContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.thumbnail {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: var(--item-margin);
+  height: var(--item-width);
+  width: var(--item-width);
+  background-color: cornflowerblue;
+}
