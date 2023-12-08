@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "design-system": "ladle dev",
+    "design-system": "ladle dev --port 3000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
